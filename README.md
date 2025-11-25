@@ -1,15 +1,14 @@
-# K-Means Clustering From Scratch
+# KNN From Scratch
 
-This project implements K-Means using only NumPy.  
-Files included:
-- `kmeans.py` — implementation
-- `README.md` — explanation
+Implements K-Nearest Neighbors using pure NumPy.
 
-Run example:
-```python
-import numpy as np
-from kmeans import kmeans
+## Features
+- Distance calculation
+- Majority voting
+- Synthetic dataset
+- Accuracy evaluation
 
-X = np.random.randn(300, 2)
-centroids, labels = kmeans(X, k=3)
+## Usage
+```
+python knn_from_scratch.py
 ```
