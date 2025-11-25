@@ -1,0 +1,1 @@
+print('Elbow method placeholder')
